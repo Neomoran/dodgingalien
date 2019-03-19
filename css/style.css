@@ -1,0 +1,38 @@
+#wrapper {
+  display: grid;
+  place-items: center;
+}
+h3 {
+  text-align: center;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #333;
+  height: 100vh;
+}
+
+p{
+	color: #fff;
+}
+img{
+	position: relative;
+	left: 8px;
+}
+span{
+	position: relative;
+	right: 15px;
+}
+
+/*Media queries*/
+
+@media screen and (max-width:400px){
+  #wrapper {
+  display: grid;
+  place-items: center;
+  margin: 30px auto;
+  overflow: hidden;
+height: 100%;
+}
+
+
+}
